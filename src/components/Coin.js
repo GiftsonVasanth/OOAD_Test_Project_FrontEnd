@@ -18,9 +18,9 @@ function Coin({Posts,loading,final_loading,value}){
             //We can also pass to the component and return it from there
             //To use we need to import - See above
             <li>
-                <h1>Name: {Post.id}</h1>
-                <h4>Website: {Post.title} </h4>
-                <h6>Description: {Post.completed}</h6>
+                <h1>Name: {Post.Id}</h1>
+                <h4>Website: {Post.Link} </h4>
+                <h6>Description: {Post.Description}</h6>
             </li>
            
           ))}  
